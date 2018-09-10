@@ -1,0 +1,10 @@
+services:
+#    athome_assets_version.example:
+#        class: Athome\Bundle\AssetsVersionBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+    athome_assets_version.twig.extension:
+        class: Athome\Bundle\AssetsVersionBundle\Twig\Extension\AssetsVersionExtension
+        calls:
+            - [setManager, [@athome_assets_version.manager]]
+        tags:
+            - {name: twig.extension}

@@ -1,0 +1,5 @@
+parameters:
+    athome_assets_version.strategy.git.class: Athome\Bundle\AssetsVersionBundle\Strategy\Git
+services:
+    athome_assets_version.manager:
+        class: %athome_assets_version.strategy.git.class%

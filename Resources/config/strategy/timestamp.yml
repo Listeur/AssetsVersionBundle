@@ -1,0 +1,5 @@
+parameters:
+    athome_assets_version.strategy.timestamp.class: Athome\Bundle\AssetsVersionBundle\Strategy\Timestamp
+services:
+    athome_assets_version.manager:
+        class: %athome_assets_version.strategy.timestamp.class%

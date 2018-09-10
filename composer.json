@@ -1,0 +1,16 @@
+{
+    "name": "athome/assets-version-bundle",
+    "description": "Assets version manager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Victor GAVOILLE",
+            "email": "victor.gavoille@athome-solution.fr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": { "Athome\\Bundle\\AssetsVersionBundle": "" }
+    },
+    "target-dir": "Athome/Bundle/AssetsVersionBundle"
+}
